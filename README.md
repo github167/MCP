@@ -1,4 +1,4 @@
-# MCP example: [https://modelcontextprotocol.io/examples]
+# MCP examples: [https://modelcontextprotocol.io/examples]
 
 server-filesystem [https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem]
 ```
