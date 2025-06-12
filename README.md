@@ -27,5 +27,6 @@ npx -y @modelcontextprotocol/server-everything
 {"method":"tools/call","params":{"name":"sampleLLM","arguments":{"prompt":"what is your name?"}},"jsonrpc":"2.0","id":1}
 {"method":"tools/call","params":{"name":"getTinyImage","arguments":{}},"jsonrpc":"2.0","id":1}
 {"method":"tools/call","params":{"name":"printEnv","arguments":{}},"jsonrpc":"2.0","id":1}
+{"method":"tools/call","params":{"name":"annotatedMessage","arguments":{"messageType":"error"}},"jsonrpc":"2.0","id":1}
 {"method":"tools/call","params":{"name":"getResourceReference","arguments":{"resourceId":73}},"jsonrpc":"2.0","id":1}
 ```
