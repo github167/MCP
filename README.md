@@ -1,6 +1,6 @@
 # MCP
 
-MCP example[https://modelcontextprotocol.io/examples]
+MCP example: [https://modelcontextprotocol.io/examples]
 
 npx -y @modelcontextprotocol/server-filesystem F:\\ <<<  '{"method":"tools/list","jsonrpc":"2.0","id":1}'
 
