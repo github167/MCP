@@ -17,7 +17,7 @@ npx -y @modelcontextprotocol/server-filesystem F:\\
 server-everything [https://github.com/modelcontextprotocol/servers/tree/main/src/everything]
 ```
 # One line
-npx -y @modelcontextprotocol/server-everything <<< '{"jsonrpc":"2.0","method":"tools/list","id":1}'
+npx -y @modelcontextprotocol/server-everything <<< '{"method":"tools/list","jsonrpc":"2.0","id":1}'
 
 # stdio input, copy and paste the json-rpc to test
 npx -y @modelcontextprotocol/server-everything
