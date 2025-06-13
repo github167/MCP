@@ -32,3 +32,9 @@ npx -y @modelcontextprotocol/server-everything
 {"method":"tools/call","params":{"name":"annotatedMessage","arguments":{"messageType":"error"}},"jsonrpc":"2.0","id":1}
 {"method":"tools/call","params":{"name":"getResourceReference","arguments":{"resourceId":73}},"jsonrpc":"2.0","id":1}
 ```
+
+Inspector [https://modelcontextprotocol.io/docs/tools/inspector]
+```
+npx @modelcontextprotocol/inspector npx -y @modelcontextprotocol/server-everything
+
+```
