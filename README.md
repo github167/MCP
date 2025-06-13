@@ -36,7 +36,12 @@ npx -y @modelcontextprotocol/server-everything
 Inspector [https://modelcontextprotocol.io/docs/tools/inspector]
 ```
 npx @modelcontextprotocol/inspector npx -y @modelcontextprotocol/server-everything
-npx @modelcontextprotocol/inspector uvx mcp-server-fetch  --ignore-robots-txt
+
+# grab page from a url
+npx @modelcontextprotocol/inspector uvx mcp-server-fetch --ignore-robots-txt
+
+# CRUD a sqlite db (default "sqlite_mcp_server.db")
+npx @modelcontextprotocol/inspector uvx mcp-server-sqlite
 
 
 #http://127.0.0.1:6274
