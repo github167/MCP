@@ -41,7 +41,7 @@ npx @modelcontextprotocol/inspector npx -y @modelcontextprotocol/server-everythi
 npx @modelcontextprotocol/inspector uvx mcp-server-fetch --ignore-robots-txt
 
 # CRUD a sqlite db (default "sqlite_mcp_server.db")
-npx @modelcontextprotocol/inspector uvx mcp-server-sqlite
+npx @modelcontextprotocol/inspector uvx mcp-server-sqlite --db-path ./test.db
 
 
 #http://127.0.0.1:6274
