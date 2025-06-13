@@ -8,6 +8,7 @@ npx -y @modelcontextprotocol/server-filesystem F:\\ <<<  '{"method":"tools/list"
 # stdio input, copy and paste the json-rpc to test
 npx -y @modelcontextprotocol/server-filesystem F:\\
 
+{"method": "ping","jsonrpc":"2.0","id":1}
 {"method":"tools/call","params":{"name":"list_directory","arguments":{"path":"F:\\pwa"}},"jsonrpc":"2.0","id":1}
 {"method":"tools/call","params":{"name":"get_file_info","arguments":{"path":"F:\\pwa\\道.zip"}},"jsonrpc":"2.0","id":1}
 {"method":"tools/call","params":{"name":"write_file","arguments":{"path":"F:\\pwa\\abc.txt", "content":"hello world"}},"jsonrpc":"2.0","id":1}
@@ -22,6 +23,7 @@ npx -y @modelcontextprotocol/server-everything <<< '{"method":"tools/list","json
 # stdio input, copy and paste the json-rpc to test
 npx -y @modelcontextprotocol/server-everything
 
+{"method": "ping","jsonrpc":"2.0","id":1}
 {"method":"tools/call","params":{"name":"echo","arguments":{"message":"hello world1"}},"jsonrpc":"2.0","id":1}
 {"method":"tools/call","params":{"name":"add","arguments":{"a":3, "b":4}},"jsonrpc":"2.0","id":1}
 {"method":"tools/call","params":{"name":"sampleLLM","arguments":{"prompt":"what is your name?"}},"jsonrpc":"2.0","id":1}
