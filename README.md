@@ -36,6 +36,9 @@ npx -y @modelcontextprotocol/server-everything
 Inspector [https://modelcontextprotocol.io/docs/tools/inspector]
 ```
 npx @modelcontextprotocol/inspector npx -y @modelcontextprotocol/server-everything
+npx @modelcontextprotocol/inspector uvx mcp-server-fetch  --ignore-robots-txt
+
+
 #http://127.0.0.1:6274
 
 ```
