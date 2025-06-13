@@ -36,5 +36,6 @@ npx -y @modelcontextprotocol/server-everything
 Inspector [https://modelcontextprotocol.io/docs/tools/inspector]
 ```
 npx @modelcontextprotocol/inspector npx -y @modelcontextprotocol/server-everything
+#http://127.0.0.1:6274
 
 ```
