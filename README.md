@@ -43,6 +43,8 @@ npx @modelcontextprotocol/inspector uvx mcp-server-fetch --ignore-robots-txt
 # CRUD a sqlite db (default "sqlite_mcp_server.db")
 npx @modelcontextprotocol/inspector uvx mcp-server-sqlite --db-path ./test.db
 
+# check and convert time
+npx @modelcontextprotocol/inspector uvx mcp-server-time --local-timezone=Asia/Hong_Kong
 
 #http://127.0.0.1:6274
 
