@@ -8,6 +8,12 @@ npx -y @modelcontextprotocol/server-filesystem F:\\ <<<  '{"method":"tools/list"
 # stdio input, copy and paste the json-rpc to test
 npx -y @modelcontextprotocol/server-filesystem F:\\
 
+# sometimes you may need to handshake with the mcp client first
+{"method":"initialize","params":{"protocolVersion":"","capabilities":{},"clientInfo":{"name":"", "version":""}},"jsonrpc":"2.0","id":0}
+{"method":"notifications/initialized","jsonrpc":"2.0"}
+
+
+{"method": "tools/list", "jsonrpc":"2.0","id":1}
 {"method": "ping","jsonrpc":"2.0","id":1}
 {"method":"tools/call","params":{"name":"list_directory","arguments":{"path":"F:\\pwa"}},"jsonrpc":"2.0","id":1}
 {"method":"tools/call","params":{"name":"get_file_info","arguments":{"path":"F:\\pwa\\道.zip"}},"jsonrpc":"2.0","id":1}
