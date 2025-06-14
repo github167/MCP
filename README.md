@@ -5,7 +5,9 @@ server-filesystem [https://github.com/modelcontextprotocol/servers/tree/main/src
 # One line
 npx -y @modelcontextprotocol/server-filesystem F:\\ <<<  '{"method":"tools/list","jsonrpc":"2.0","id":1}'
 
-# stdio input, copy and paste the json-rpc to test
+```
+or input through stdio; copy and paste the following jsonrpc to test
+```
 npx -y @modelcontextprotocol/server-filesystem F:\\
 
 # sometimes you may need to handshake with the mcp client first
