@@ -14,5 +14,5 @@ OPENROUTER_API_KEY=xxx
 run server
 ```
 uv run start.py
-# surf to URL: http://127.0.0.1/
+# surf to URL: http://127.0.0.1:5000/
 ```
