@@ -18,7 +18,7 @@ def get_api_key() -> str:
 
 
 OPENROUTER_API_KEY = get_api_key()
-MODEL_NAME = "openai/gpt-4o-mini"
+MODEL_NAME = "mistralai/devstral-small:free"
 #MODEL_NAME = "sam4096/qwen2tools:0.5b"
 
 TOOLS = [
