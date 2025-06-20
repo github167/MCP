@@ -1,59 +1,18 @@
 # MCP clients and servers: [https://github.com/MarkTechStation/VideoCode/tree/main/MCP%20%E4%B8%8E%20Function%20Calling%20%E5%88%B0%E5%BA%95%E4%BB%80%E4%B9%88%E5%85%B3%E7%B3%BB/MarkChat]
 
-server-filesystem [https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem]
+Install
 ```
-# One line
-npx -y @modelcontextprotocol/server-filesystem F:\\ <<<  '{"method":"tools/list","jsonrpc":"2.0","id":1}'
-
-```
-or input through stdio; copy and paste the following jsonrpc to test
-```
-npx -y @modelcontextprotocol/server-filesystem F:\\
-
-# sometimes you may need to handshake with the mcp client first
-{"method":"initialize","params":{"protocolVersion":"","capabilities":{},"clientInfo":{"name":"", "version":""}},"jsonrpc":"2.0","id":0}
-{"method":"notifications/initialized","jsonrpc":"2.0"}
-
-
-{"method": "tools/list", "jsonrpc":"2.0","id":1}
-{"method": "ping","jsonrpc":"2.0","id":1}
-{"method":"tools/call","params":{"name":"list_directory","arguments":{"path":"F:\\pwa"}},"jsonrpc":"2.0","id":1}
-{"method":"tools/call","params":{"name":"get_file_info","arguments":{"path":"F:\\pwa\\道.zip"}},"jsonrpc":"2.0","id":1}
-{"method":"tools/call","params":{"name":"write_file","arguments":{"path":"F:\\pwa\\abc.txt", "content":"hello world"}},"jsonrpc":"2.0","id":1}
+git clone -b mcp_clients https://github.com/github167/MCP
+cd MC
+uv sync
 
 ```
-
-server-everything [https://github.com/modelcontextprotocol/servers/tree/main/src/everything]
+Prepare .env file
 ```
-# One line
-npx -y @modelcontextprotocol/server-everything <<< '{"method":"tools/list","jsonrpc":"2.0","id":1}'
-
-# stdio input, copy and paste the json-rpc to test
-npx -y @modelcontextprotocol/server-everything
-
-{"method": "ping","jsonrpc":"2.0","id":1}
-{"method":"tools/call","params":{"name":"echo","arguments":{"message":"hello world1"}},"jsonrpc":"2.0","id":1}
-{"method":"tools/call","params":{"name":"add","arguments":{"a":3, "b":4}},"jsonrpc":"2.0","id":1}
-{"method":"tools/call","params":{"name":"sampleLLM","arguments":{"prompt":"what is your name?"}},"jsonrpc":"2.0","id":1}
-{"method":"tools/call","params":{"name":"getTinyImage","arguments":{}},"jsonrpc":"2.0","id":1}
-{"method":"tools/call","params":{"name":"printEnv","arguments":{}},"jsonrpc":"2.0","id":1}
-{"method":"tools/call","params":{"name":"annotatedMessage","arguments":{"messageType":"error"}},"jsonrpc":"2.0","id":1}
-{"method":"tools/call","params":{"name":"getResourceReference","arguments":{"resourceId":73}},"jsonrpc":"2.0","id":1}
+OPENROUTER_API_KEY=xxx
 ```
-
-Inspector [https://modelcontextprotocol.io/docs/tools/inspector]
+run server
 ```
-npx @modelcontextprotocol/inspector npx -y @modelcontextprotocol/server-everything
-
-# grab page from a url
-npx @modelcontextprotocol/inspector uvx mcp-server-fetch --ignore-robots-txt
-
-# CRUD a sqlite db (default "sqlite_mcp_server.db")
-npx @modelcontextprotocol/inspector uvx mcp-server-sqlite --db-path ./test.db
-
-# check and convert time
-npx @modelcontextprotocol/inspector uvx mcp-server-time --local-timezone=Asia/Hong_Kong
-
-#http://127.0.0.1:6274
-
+uv run start.py
+# surf to URL: http://127.0.0.1/
 ```
