@@ -57,3 +57,11 @@ npx @modelcontextprotocol/inspector uvx mcp-server-time --local-timezone=Asia/Ho
 #http://127.0.0.1:6274
 
 ```
+
+[https://www.youtube.com/@%E8%B5%8B%E8%8C%83%E8%AF%BE%E5%A0%82/videos](https://www.youtube.com/watch?v=lXW32JXVHrg)
+
+[https://www.youtube.com/@01coder30](https://www.youtube.com/@01coder30/videos)
+
+https://www.youtube.com/@nateherk/videos
+
+
