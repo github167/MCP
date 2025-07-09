@@ -64,4 +64,5 @@ npx @modelcontextprotocol/inspector uvx mcp-server-time --local-timezone=Asia/Ho
 
 https://www.youtube.com/@nateherk/videos
 
+Cline 60000+ prompt message: https://www.yuque.com/xuanyuanzhifeng-xofk5/yie9fu/xex3cyng7o8q5si5#
 
