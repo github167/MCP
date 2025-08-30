@@ -70,6 +70,8 @@ Nate Herk | AI Automation https://www.youtube.com/@nateherk/videos
 
 马克的技术工作坊 https://www.youtube.com/@%E9%A9%AC%E5%85%8B%E7%9A%84%E6%8A%80%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%9D%8A
 
+code秘密花园 https://www.youtube.com/@garden-conard/videos
+
 Cline 60000+ prompt message: https://www.yuque.com/xuanyuanzhifeng-xofk5/yie9fu/xex3cyng7o8q5si5#
 
 ```
