@@ -60,9 +60,11 @@ npx @modelcontextprotocol/inspector uvx mcp-server-time --local-timezone=Asia/Ho
 
 赋范课堂 [https://www.youtube.com/@%E8%B5%8B%E8%8C%83%E8%AF%BE%E5%A0%82/videos](https://www.youtube.com/watch?v=lXW32JXVHrg)
 
-[https://www.youtube.com/@01coder30](https://www.youtube.com/@01coder30/videos)
+01coder30 [https://www.youtube.com/@01coder30](https://www.youtube.com/@01coder30/videos)
 
-https://www.youtube.com/@nateherk/videos
+Nate Herk | AI Automation https://www.youtube.com/@nateherk/videos
+
+技术爬爬虾 https://www.youtube.com/@tech-shrimp/videos
 
 Cline 60000+ prompt message: https://www.yuque.com/xuanyuanzhifeng-xofk5/yie9fu/xex3cyng7o8q5si5#
 
